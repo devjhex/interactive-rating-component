@@ -1,0 +1,30 @@
+@use "../util/" as u;
+@use "../globals/colors" as c;
+
+.rating-component_thanks{
+   display: block;
+    .svg2{
+        margin-left: 30%;
+        margin-top: 3rem;
+    }
+    .rating-component__select-text__thanks{
+        background-color: rgba(255, 255,255, 0.1);
+        line-height: 2;
+        font-size: 1.2rem;
+        width: 50%;
+        margin-top: 1rem;
+        color: c.$orange;
+        border-radius: 20px;
+        margin-inline: auto;
+        text-align: center;
+    }
+    .rating-component__title_thanks{
+        width: 50%;
+        margin-top: 2rem;
+        margin-inline:auto;
+        text-align: center;
+    }
+    .rating-component__text_thanks{
+        text-align: center;
+    }
+}
