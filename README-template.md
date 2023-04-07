@@ -73,31 +73,32 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   box-sizing:border-box;
  }
  ```
-I mean resets on almost every element you use in your code like html, headings , paragraphs, unorderd lists buttons and many other elements. This is because almost all these elements have default styles and to be honest these default styles are looked on by most of the devs in the tech industry and yet cause chaos during your styling and you know what i mean:
- - You're trying to give something padding or margin but its not moving at all and you're so pissed at yourself like 😠
+I mean resets on almost every element you use in your code like html, headings , paragraphs, unordered lists buttons and many other elements. This is because almost all these elements have default styles and to be honest these default styles are looked on by most  developers out there who are just starting out in the tech industry and yet cause chaos during your styling, you may find yourself:
+ -  trying to give something padding or margin but its not moving at all and you're so pissed at yourself like 😠
+ - trying to give an element a sort of styling but it looks different when you give it that particular style and many other issues.
 
+ *When you write real applicable resets it gives you the steering wheel of applying what you want where you want but also it helps in debugging or trying to find out where you went wrong in your styles*
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+### Best lines that I don't regret learning
+*We know that centering an element within a short time would be using {margin 0 auto} which is really useful. It gives some margin to the top and bottom (in our case it gives 0 on the top and bottom) and shares remaining space equally to the right and left so as to center the element (Note: the element has to have width and height to work)*
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+element {
+  width:100px;
+  height:100px;
+  margin: 0 auto; /* This centers the element */
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+*And as we know we cannot center the element without altering the top and bottom margins of an element. Luckily this is where the margin-inline property comes in handy. It gives us the way of centering a element without altering the top and bottom margins of an element(it only alters the right and left margins of an element). So the above code could be written like this:* 
+```css
+element {
+  margin-inline:auto; /* This centers an element */
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+*This is the best take away that i really loved when it comes to the lines of code i wrote for this project*
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Areas that i would like to focus on more is perfecting how to approach a project because this is the most important stage of it all (the initial stage). This has to do with asking yourself questions like: "How are you going to start?", "What technologies are you going to use?", "Why are you going to use those technologies?" and so on. This gives you a better understanding of how you are going to approach a project and as said it boosts your confidence.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
