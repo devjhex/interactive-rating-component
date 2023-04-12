@@ -63,7 +63,7 @@ a, a:visited, a:active {
 }
 
 .rating-component {
-  width: 450px;
+  width: 390px;
   height: 460px;
   margin-top: 1rem;
   margin-inline: auto;
@@ -119,7 +119,7 @@ a, a:visited, a:active {
   background-color: hsl(25, 97%, 53%);
 }
 .rating-component__submit-button {
-  width: 390px;
+  width: 330px;
   height: 3.3rem;
   margin: 2rem 1rem 0rem 2rem;
   border-radius: 3rem;
