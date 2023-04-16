@@ -1,20 +1,14 @@
 @use "../util/" as u;
 @use "../globals/colors" as c;
+
+@media (min-width:375px){
 $mg-left:2rem;
 .rating-component{
-    width: 390px;
+    width: 350px;
     height: 460px;
-    margin-top: 1rem;
-    margin-inline: auto;
-    background-color:c.$dark-grey;
-    border-radius: 15px;
-    transition: all 1s;
     .svg1{
         background-color: rgba(255,255,255,0.1);
         margin: 2rem 0 1rem 2rem;
-        padding-left: 14px;
-        padding-top: 13px;
-        border-radius: 50%;
     }
     &__title{
         font-size: 2rem;
@@ -23,62 +17,19 @@ $mg-left:2rem;
     &__text{
         font-size:1.2rem;
         margin-left: $mg-left;
-        margin-right: 2rem;
-        color: c.$medium-grey;
     }
     ul{
-       list-style-type: none;
-       display: flex;
-       justify-content: space-around;
-       align-items: center;
-       margin: 2rem 1rem 0 1rem;
-    
        button{
-        font-family: u.$font;
         font-size: 1.2rem;
         width: 3.5rem;
         height: 3.5rem;
-        border-radius: 50%;
-        background-color:  rgba(255,255,255,0.1);
-        border: none;
-        color: c.$light-grey;
-        transition: all .5s;
-        
        }
-       button:hover{
-        background-color: c.$medium-grey;
-        color: c.$white;
-    }
-    .button-clicked {
-        background-color: c.$orange;
-        color:c.$white;
-        transition: all .5s;
-    }
-    .button-clicked:hover{
-        background-color: c.$orange;
-    }
    }
    &__submit-button{
-    width:330px;
-    height: 3.3rem;
-    margin: 2rem 1rem 0rem 2rem;
-    border-radius: 3rem;
-    text-transform: uppercase;
-    background-color: c.$orange;
-    border: none;
-    color:c.$white;
-    font-size: 15px;
-    line-height: 1.5;
-    letter-spacing: 4px;
-    font-style: u.$font;
-    font-weight: 700;
-    transition: all .5s;
-   }
-   &__submit-button:hover{
-    background-color: c.$white;
-    color: c.$orange;
+    width:320px;
    }
 }
 .hide{
     display: none;
+}
 }
