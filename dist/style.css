@@ -92,7 +92,7 @@ a, a:visited, a:active {
     background-color: hsl(25, 97%, 53%);
   }
   .rating-component__submit-button {
-    width: 260px;
+    width: 90%;
     height: 3.3rem;
     margin: 2rem 1rem 0rem 1rem;
     border-radius: 3rem;
@@ -164,9 +164,6 @@ a, a:visited, a:active {
     width: 3.5rem;
     height: 3.5rem;
   }
-  .rating-component__submit-button {
-    width: 320px;
-  }
   .hide {
     display: none;
   }
@@ -187,7 +184,7 @@ a, a:visited, a:active {
     margin: 2rem 1.2rem 0 1.2rem;
   }
   .rating-component__submit-button {
-    width: 420px;
-    margin: 2rem 1rem 0 2.4rem;
+    width: 85%;
+    margin: 2rem 1rem 0 2.2rem;
   }
 }/*# sourceMappingURL=style.css.map */
