@@ -172,6 +172,7 @@ a, a:visited, a:active {
   .rating-component {
     width: 490px;
     border-radius: 30px;
+    margin-top: 7rem;
   }
   .rating-component__title {
     margin-top: 0.7rem;
