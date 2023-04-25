@@ -13,4 +13,9 @@ body{
     font-family: u.$font;
     background-color:c.$very-dark-blue;
     color: c.$white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }

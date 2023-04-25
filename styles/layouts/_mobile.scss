@@ -1,32 +1,28 @@
 @use "../util/" as u;
 @use "../globals/colors" as c;
 
-@media (min-width:375px){
-$mg-left:2rem;
-.rating-component{
-    width: 350px;
-    height: 460px;
-    .svg1{
-        background-color: rgba(255,255,255,0.1);
-        margin: 2rem 0 1rem 2rem;
-    }
-    &__title{
-        font-size: 2rem;
-        margin-left: $mg-left;
-    }
-    &__text{
-        font-size:1.2rem;
-        margin-left: $mg-left;
-    }
-    ul{
-       button{
-        font-size: 1.2rem;
-        width: 3.5rem;
-        height: 3.5rem;
-       }
-   }
-}
-.hide{
-    display: none;
-}
-}
+$m-left:2rem;
+// .rating-component{
+//     .svg1{
+//         background-color: rgba(255,255,255,0.1);
+//         margin: 2rem 0 1rem 2rem;
+//     }
+//     &__title{
+//         // font-size: 2rem;
+//         margin-left: $m-left;
+//     }
+//     &__text{
+//         font-size:1.2rem;
+//         margin-left: $m-left;
+//     }
+//     ul{
+//        button{
+//         font-size: 1.2rem;
+//         width: 3.5rem;
+//         height: 3.5rem;
+//        }
+//    }
+// }
+// .hide{
+//     display: none;
+// }

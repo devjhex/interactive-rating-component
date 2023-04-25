@@ -1,25 +1,24 @@
 @use "../util/" as u;
 @use "../globals/colors" as c;
 
-@media (min-width:1440px){
+@media (min-width:1280px){
     .rating-component{
-        width: 490px;
         border-radius: 30px;
-        margin-top: 7rem;
-        &__title{
-            margin-top: .7rem;
+        .svg1{
+            margin: 2rem 0 1.5rem 1.8rem;
         }
         &__text{
-            line-height: 1.4;
+            font-size:1rem;
+            margin-left: 1.8rem;
+            padding-right: 2.3rem;
+            color: c.$medium-grey;
         }
         ul{
-           justify-content: space-around;
-            margin: 2rem 1.2rem 0 1.2rem;
-
+            margin-left: .3rem;
         }
         &__submit-button{
-            width: 85%;
-            margin: 2rem 1rem 0 2.2rem;
+            margin-top: 1.7rem;
+            height: 2.8rem;
         }
     }
 }
