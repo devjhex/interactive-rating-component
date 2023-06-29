@@ -48,9 +48,9 @@ Users should be able to:
 - JavaScript
 
 ### What I learned:
-### how to approach a project
+### How to approach a project
   - I learnt how to approach a project before even before any of the coding or even thinking of what i'm technologies i'm going to use. Look at the project, know it's semantics that is what the heading or piece of information means maybe why it is there in that particular place, if possible make research of how other ideas of the same project look like. This helps you to build your confidence.
-### how to divide a project
+### How to divide a project
   - I learnt how to divide my project into smaller pieces. This is the most important thing in all the things i learnt from this because it helped me not only in this project but in all my tasks.If you're a new into tech and your intimidated on how other developers have to write into like hundreds of files, don't worry because it's just a gigantic task broken down into smaller tasks
 
      **(this can also help you have personal project ideas, you might ask yourself "Why can't i make a tool that helps me automate this group of tasks?")**
